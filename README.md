@@ -12,3 +12,6 @@ Rust >= 1.90
 
 ## TODO
 Add an mdbook.
+
+## Disclaimer
+This project is NOT vibe-coded.
