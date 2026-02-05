@@ -11,5 +11,5 @@ members = [
 	# Traits
 	"recipes/traits/traits_basic",
 	"recipes/traits/eq_and_ordering"
-]
+, "recipes/traits/iterator_trait"]
 resolver = "3"
