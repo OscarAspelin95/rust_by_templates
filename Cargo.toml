@@ -5,11 +5,13 @@ members = [
 	# HTTP
 	"recipes/http/axum_basic",
 	# Testing
-	"recipes/test_framework/rstest_basic",
+	"recipes/test_framework/parametrization",
 	# Serialization
 	"recipes/serde/read_write_json",
 	# Traits
-	"recipes/traits/traits_basic",
-	"recipes/traits/eq_and_ordering"
-, "recipes/traits/iterator_trait"]
+	"recipes/traits/impl_display",
+	"recipes/traits/eq_and_ordering",
+	"recipes/traits/iterator_trait",
+	"recipes/traits/from_and_into",
+	]
 resolver = "3"

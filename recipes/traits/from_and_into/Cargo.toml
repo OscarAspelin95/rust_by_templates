@@ -1,5 +1,5 @@
 [package]
-name = "traits_basic"
+name = "from_and_into"
 version = "0.0.1"
 edition = "2024"
 
