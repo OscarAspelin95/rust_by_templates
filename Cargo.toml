@@ -13,5 +13,7 @@ members = [
 	"recipes/traits/eq_and_ordering",
 	"recipes/traits/iterator_trait",
 	"recipes/traits/from_and_into",
+	# Async
+	"recipes/async/try_with_timeout",
 	]
 resolver = "3"
