@@ -16,6 +16,7 @@ members = [
 	# Async
 	"recipes/async/try_with_timeout",
 	"recipes/async/closures",
+	"recipes/async/background_interval_task",
 	# Recursion
 	"recipes/recursion/sorting",
 	"recipes/recursion/fibonacci",
@@ -23,4 +24,5 @@ members = [
 	"recipes/generics/structs",
 	"recipes/generics/stack",
 	]
+
 resolver = "3"

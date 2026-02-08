@@ -82,6 +82,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "background_interval_task"
+version = "0.0.1"
+dependencies = [
+ "log",
+ "simple_logger",
+ "tokio",
+]
+
+[[package]]
 name = "bitflags"
 version = "2.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -198,7 +207,7 @@ checksum = "37909eebbb50d72f9059c3b6d82c0463f2ff062c9e95845c43a6c9c0355411be"
 
 [[package]]
 name = "fibonacci"
-version = "0.1.0"
+version = "0.0.1"
 
 [[package]]
 name = "fnv"
@@ -977,7 +986,7 @@ checksum = "6ce2be8dc25455e1f91df71bfa12ad37d7af1092ae736f3a6cd0e37bc7810596"
 
 [[package]]
 name = "stack"
-version = "0.1.0"
+version = "0.0.1"
 
 [[package]]
 name = "strsim"
