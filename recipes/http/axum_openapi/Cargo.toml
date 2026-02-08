@@ -1,0 +1,19 @@
+[package]
+name = "axum_openapi"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+axum = {version = "0.8.8"}
+tokio = {version = "1.49.0", features = ["full"]}
+tower-http = {version = "0.6.8", features = ["cors"]}
+thiserror = {version = "2.0.18"}
+tracing = {version = "0.1.44"}
+tracing-subscriber = {version = "0.3.22"}
+serde = {version = "1.0.228", features = ["derive"]}
+serde_json = "1.0.149"
+utoipa = {version = "5.4.0", features = ["axum_extras", "uuid", "chrono"]}
+chrono = {version = "0.4.43", features = ["serde"]}
+uuid = {version = "1.20.0", features = ["v7", "serde"]}
+utoipa-swagger-ui = {version = "9", features = ["axum"]}
+utoipa-axum = {version = "*"}

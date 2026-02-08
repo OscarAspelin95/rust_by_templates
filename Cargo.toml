@@ -5,6 +5,7 @@ members = [
 	# HTTP
 	"recipes/http/axum_basic",
 	"recipes/http/axum_custom_extractors",
+	"recipes/http/axum_openapi",
 	# Testing
 	"recipes/test_framework/parametrization",
 	# Serialization
