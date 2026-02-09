@@ -8,4 +8,4 @@ Use the utopia crate.
 In this example, we implement a `/user` route with mock `GET` and `POST` endpoints to illustrate how to document our API.
 
 
-Run `cargo run` and visit `http://<...>` to check the API documentation.
+Run `cargo run` and visit `http://localhost:8080/swagger-ui` to check the API documentation.

@@ -6,6 +6,8 @@ members = [
 	"recipes/http/axum_basic",
 	"recipes/http/axum_custom_extractors",
 	"recipes/http/axum_openapi",
+	"recipes/http/axum_tracing",
+	"recipes/http/axum_middleware",
 	# Testing
 	"recipes/test_framework/parametrization",
 	# Serialization
